@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="41057" started-at="2017-03-13T09:31:54Z" finished-at="2017-03-13T09:32:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="41057" started-at="2017-03-13T09:31:54Z" finished-at="2017-03-13T09:32:35Z">
+      <class name="test.Regression.TestLogin_SC01">
+        <test-method status="PASS" signature="PreCondition()[pri:0, instance:test.Regression.TestLogin_SC01@cc285f4]" name="PreCondition" is-config="true" duration-ms="12438" started-at="2017-03-13T15:01:54Z" finished-at="2017-03-13T15:02:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreCondition -->
+        <test-method status="PASS" signature="VerifyValidLogin_TC01()[pri:0, instance:test.Regression.TestLogin_SC01@cc285f4]" name="VerifyValidLogin_TC01" duration-ms="6672" started-at="2017-03-13T15:02:07Z" finished-at="2017-03-13T15:02:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyValidLogin_TC01 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.Regression.TestLogin_SC01@cc285f4]" name="afterMethod" is-config="true" duration-ms="20" started-at="2017-03-13T15:02:13Z" finished-at="2017-03-13T15:02:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="PreCondition()[pri:0, instance:test.Regression.TestLogin_SC01@cc285f4]" name="PreCondition" is-config="true" duration-ms="11289" started-at="2017-03-13T15:02:13Z" finished-at="2017-03-13T15:02:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreCondition -->
+        <test-method status="PASS" signature="VerifyInvalidLogin_TC02()[pri:0, instance:test.Regression.TestLogin_SC01@cc285f4]" name="VerifyInvalidLogin_TC02" duration-ms="10594" started-at="2017-03-13T15:02:25Z" finished-at="2017-03-13T15:02:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvalidLogin_TC02 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.Regression.TestLogin_SC01@cc285f4]" name="afterMethod" is-config="true" duration-ms="20" started-at="2017-03-13T15:02:35Z" finished-at="2017-03-13T15:02:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- test.Regression.TestLogin_SC01 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

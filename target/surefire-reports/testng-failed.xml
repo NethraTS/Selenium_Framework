@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [RegressionSuite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="test.Regression.TestLogin_SC01">
+        <methods>
+          <include name="PreCondition"/>
+          <include name="VerifyInvalidLogin_TC02"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- test.Regression.TestLogin_SC01 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->
