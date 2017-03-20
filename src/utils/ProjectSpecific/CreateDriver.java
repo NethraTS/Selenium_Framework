@@ -16,7 +16,7 @@ public class CreateDriver {
 		//System.out.println(browserName);
 		String url = GetData.FromExcel("./Test_Data/Data.xlsx", "Browser_Config", 0, 1);
 		if (browserName.equalsIgnoreCase("ff")) {
-			System.setProperty("webdriver.firefox.marionette", "./Browser_Servers/geckodriver.exe");
+			System.setProperty("webdriver.firefox.marionette", "./Browser_Servers/geckodriver_linux");
 			driver = new FirefoxDriver();
 		} else if (browserName.equalsIgnoreCase("gc")) {
 			System.setProperty("webdriver.chrome.driver", "./Browser_Servers/chromedriver.exe");
